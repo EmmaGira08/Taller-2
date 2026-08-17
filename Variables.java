@@ -31,5 +31,12 @@ String carreraUniversitaria = "Ingenieria de Sistemas";
 int limiteCredito = 5000;
 long metrosDistancia = 150000L;
 double constanteMatematica = 3.14159;
+
+// === REASIGNACIÓN DESDE OTRAS VARIABLES (Al menos 5) ===
+limiteCredito = cantidadUsuarios;         // 1. int toma valor de int
+notaPromedio = precioDolar;               // 2. double toma valor de double
+carreraUniversitaria = cursoMatematicas;  // 3. String toma valor de String
+metrosDistancia = poblacionMundial;       // 4. long toma valor de long
+calificacionModulo = genero;              // 5. char toma valor de char
     }
 }
