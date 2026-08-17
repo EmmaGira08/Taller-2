@@ -38,5 +38,22 @@ notaPromedio = precioDolar;               // 2. double toma valor de double
 carreraUniversitaria = cursoMatematicas;  // 3. String toma valor de String
 metrosDistancia = poblacionMundial;       // 4. long toma valor de long
 calificacionModulo = genero;              // 5. char toma valor de char
+
+// === REASIGNACIÓN CON DATOS NUEVOS HARDCODED (QUEMADOS) ===
+edadEstudiante = 21;
+anioActual = 2027;
+cantidadUsuarios = 2500;
+poblacionMundial = 8500000000L;
+temperaturaCelsius = 19.8f;
+precioDolar = 4100.25;
+esEstudianteActivo = false;
+genero = 'F';
+nombreUsuario = "Andrea";
+ciudadResidencia = "Bogotá";
+universidad = "EAFIT";
+cursoMatematicas = "Ecuaciones Diferenciales";
+velocidadMantenida = 95.5f;
+matriculaPagada = false;
+constanteMatematica = 2.71828;
     }
 }
