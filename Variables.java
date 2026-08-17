@@ -1,15 +1,35 @@
 public class Variables {
     public static void main(String[] args) {
         System.out.println("Taller 2: Variables y Condicionales");
-        // 1 a 4: Enteros Primitivos
+
+// 1 a 4: Enteros Primitivos
 byte edadEstudiante = 20;
 short anioActual = 2026;
 int cantidadUsuarios = 1500;
 long poblacionMundial = 8000000000L; // Uso del sufijo 'L' (Punto 8)
+
 // 5 a 8: Flotantes y Decimales
 float temperaturaCelsius = 23.5f; // Uso del sufijo 'f' (Punto 8)
 float velocidadMantenida = 80.0f;
 double precioDolar = 3950.50;
 double notaPromedio = 4.2;
+
+// 9 y 10: Booleanos
+boolean esEstudianteActivo = true;
+boolean matriculaPagada = true;
+
+// 11 y 12: Caracteres (Uso de comillas simples '' para el Punto 8)
+char genero = 'M';
+char calificacionModulo = 'A';
+
+// 13 a 20: Cadenas de Texto (String) y otras variables
+String nombreUsuario = "Carlos";
+String ciudadResidencia = "Medellín";
+String universidad = "UPB";
+String cursoMatematicas = "Calculo Multivariable";
+String carreraUniversitaria = "Ingenieria de Sistemas";
+int limiteCredito = 5000;
+long metrosDistancia = 150000L;
+double constanteMatematica = 3.14159;
     }
 }
