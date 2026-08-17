@@ -55,5 +55,13 @@ cursoMatematicas = "Ecuaciones Diferenciales";
 velocidadMantenida = 95.5f;
 matriculaPagada = false;
 constanteMatematica = 2.71828;
+
+// Impresión por consola para verificación
+System.out.println("=== VERIFICACIÓN DE REASIGNACIONES ===");
+System.out.println("Limite Credito (copiado de cantidadUsuarios): " + limiteCredito);
+System.out.println("Carrera (copiada de cursoMatematicas): " + carreraUniversitaria);
+System.out.println("Nueva Edad (Hardcoded): " + edadEstudiante);
+System.out.println("Nueva Ciudad (Hardcoded): " + ciudadResidencia);
+System.out.println("Nuevo Dolar (Hardcoded): " + precioDolar);
     }
 }
