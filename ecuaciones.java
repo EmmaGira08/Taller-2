@@ -57,6 +57,9 @@ double z2 = scanner.nextDouble();
 double numTerm1 = Math.pow(x2, 2) + 3 * z2 + 2;
 double denTerm1 = 2 + (1 / (1 + 2 * z2));
 double term1 = numTerm1 / denTerm1;
+// Sub-fracción más profunda: 2z + (3 / (1 + (5 / z)))
+double denFondo = 1 + (5 / z2);
+double denMedio = 2 * z2 + (3 / denFondo);
 
         break;
 
