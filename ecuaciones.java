@@ -48,7 +48,14 @@ if (z == -1) {
 
     case 2:
         // Ecuación 2 (por implementar)
+       System.out.println("\n--- RESOLVER ECUACIÓN 2 ---");
+System.out.print("Ingrese el valor de x: ");
+double x2 = scanner.nextDouble();
+System.out.print("Ingrese el valor de z: ");
+double z2 = scanner.nextDouble();
+
         break;
+
     case 3:
         System.out.println("Saliendo del programa...");
         break;
