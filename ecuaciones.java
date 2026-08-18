@@ -24,13 +24,13 @@ double x = scanner.nextDouble();
 System.out.print("Ingrese el valor de z: ");
 double z = scanner.nextDouble();
 
-// Numerador: (3x) / (1 + (3x) / (3z^2 + 2))
+
 double num1 = 3 * x;
 double denSub1 = 3 * Math.pow(z, 2) + 2;
 double denNum = 1 + (num1 / denSub1);
 double numeradorPrincipal = num1 / denNum;
 
-// Denominador: 1 + 1 / ((1 / (1 + z)) + 3x^2 + 2z + 3)
+
 double fraccInterna = 1 / (1 + z);
 double denSub2 = fraccInterna + 3 * Math.pow(x, 2) + 2 * z + 3;
 double denominadorPrincipal = 1 + (1 / denSub2);
