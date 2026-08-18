@@ -60,6 +60,12 @@ double term1 = numTerm1 / denTerm1;
 // Sub-fracción más profunda: 2z + (3 / (1 + (5 / z)))
 double denFondo = 1 + (5 / z2);
 double denMedio = 2 * z2 + (3 / denFondo);
+// Fracciones intermedias y unificación del Término 2
+double denInterno = (1 / (1 + 3 * x2)) + ((3 * x2 + 1) / denMedio);
+double denSub3 = 1 / denInterno;
+double numSub2 = 1 + 3 * Math.pow(x2, 3) + 3 * z2 + 2;
+double den2 = numSub2 / denSub3;
+double term2 = 2 / den2;
 
         break;
 
