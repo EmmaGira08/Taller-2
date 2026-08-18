@@ -34,6 +34,8 @@ double numeradorPrincipal = num1 / denNum;
 double fraccInterna = 1 / (1 + z);
 double denSub2 = fraccInterna + 3 * Math.pow(x, 2) + 2 * z + 3;
 double denominadorPrincipal = 1 + (1 / denSub2);
+double y1 = numeradorPrincipal / denominadorPrincipal;
+System.out.println("El resultado de la Ecuación 1 es y = " + y1);
 
 
         
