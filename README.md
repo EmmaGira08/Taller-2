@@ -21,4 +21,16 @@ Este taller tiene como objetivo entender el funcionamiento de las variables y co
 2. **Sufijo `L` / `l`:** Usado en `poblacionMundial` y `metrosDistancia` para literales enteros de tipo `long`.
 3. **Comillas Simples `' '`:** Usadas en `genero` y `calificacionModulo` para literales de tipo `char`.
   
- - **Ecuaciones.java:** Este programa contiene 2 ecuciones previamente propuestas de las cuáles podrás elegir una y asignar sus respectivos valores a sus variables para llegar a un resultado único.
+ - **Ecuaciones.java:**
+   ## Sección del Menú y Ecuación 1
+
+### Menú Interactivo
+Se construyó un menú basado en `Scanner` y un condicional `switch` que ofrece 3 opciones de ejecución.
+
+### Ecuación 1
+Se implementó la evaluación de la expresión matemática aplicando el método *divide y vencerás*:
+1. **Numerador principal:** Se desglosó el término `3z^2 + 2` y la fracción correspondiente.
+2. **Denominador principal:** Se evaluaron los términos con la función `Math.pow()` y la fracción `1 / (1 + z)`.
+3. **Validación:** Se incluyó un condicional para prevenir indeclaraciones por división sobre cero.
+
+ - Este programa contiene 2 ecuciones previamente propuestas de las cuáles podrás elegir una y asignar sus respectivos valores a sus variables para llegar a un resultado único.
