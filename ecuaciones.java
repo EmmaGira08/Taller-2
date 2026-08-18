@@ -66,6 +66,9 @@ double denSub3 = 1 / denInterno;
 double numSub2 = 1 + 3 * Math.pow(x2, 3) + 3 * z2 + 2;
 double den2 = numSub2 / denSub3;
 double term2 = 2 / den2;
+double y2 = term1 + term2;
+System.out.println("El resultado de la Ecuación 2 es y = " + y2);
+
 
         break;
 
