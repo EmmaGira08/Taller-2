@@ -34,6 +34,22 @@ Se implementó la evaluación de la expresión matemática aplicando el método 
 3. **Validación:** Se incluyó un condicional para prevenir indeclaraciones por división sobre cero.
 
  - Este programa contiene 2 ecuciones previamente propuestas de las cuáles podrás elegir una y asignar sus respectivos valores a sus variables para llegar a un resultado único.
+### 🧮 Solución e Implementación - Ecuación 2
+
+La **Ecuación 2** evalúa una expresión matemática compuesta por dos términos principales con múltiples niveles de fracciones continuas e iteradas:
+
+$$y = \frac{x^2 + 3z + 2}{2 + \frac{1}{1 + 2z}} + \frac{2}{\frac{1 + 3x^3 + 3z + 2}{\frac{1}{\frac{1}{1 + 3x} + \frac{3x + 1}{2z + \frac{3}{1 + \frac{5}{z}}}}}}$$
+
+#### 🛠️ Estrategia de Resolución (*Divide y Vencerás*)
+Para traducir con precisión esta fórmula a Java sin perder legibilidad ni cometer errores de parentización, se desglosó la expresión en sub-variables intermedias:
+
+1. **Término 1:** Se evalúa la fracción superior $T_1 = \frac{x^2 + 3z + 2}{2 + \frac{1}{1 + 2z}}$.
+2. **Término 2 (Denominador en cascada):** 
+   - Se resuelve la base del denominador: $D_{\text{fondo}} = 1 + \frac{5}{z}$.
+   - Se asciende en la fracción interna: $D_{\text{medio}} = 2z + \frac{3}{D_{\text{fondo}}}$.
+   - Se unifican los denominadores anidados para calcular la fracción intermedia principal $T_2$.
+3. **Suma Final:** $y = T_1 + T_2$.
+
 ## Conclusiones, Dudas y Aprendizajes
 
 ### Aprendizajes:
