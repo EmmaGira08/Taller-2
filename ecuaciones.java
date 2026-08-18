@@ -17,7 +17,16 @@ int opcion = scanner.nextInt();
 switch (opcion) {
     case 1:
         // Ecuación 1 (por implementar)
+        System.out.println("\n--- RESOLVER ECUACIÓN 1 ---");
+System.out.print("Ingrese el valor de x: ");
+double x = scanner.nextDouble();
+
+System.out.print("Ingrese el valor de z: ");
+double z = scanner.nextDouble();
+
+        
         break;
+
     case 2:
         // Ecuación 2 (por implementar)
         break;
