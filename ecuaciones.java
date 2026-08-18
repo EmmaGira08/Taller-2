@@ -48,6 +48,10 @@ if (z == -1) {
 
     case 2:
         // Ecuación 2 (por implementar)
+        if (z2 == 0 || (1 + 2 * z2) == 0) {
+    System.out.println("Error: Los valores ingresados producen una división sobre cero.");
+} else {
+    // Código de los cálculos de la Ecuación 2
        System.out.println("\n--- RESOLVER ECUACIÓN 2 ---");
 System.out.print("Ingrese el valor de x: ");
 double x2 = scanner.nextDouble();
@@ -68,10 +72,7 @@ double den2 = numSub2 / denSub3;
 double term2 = 2 / den2;
 double y2 = term1 + term2;
 System.out.println("El resultado de la Ecuación 2 es y = " + y2);
-if (z2 == 0 || (1 + 2 * z2) == 0) {
-    System.out.println("Error: Los valores ingresados producen una división sobre cero.");
-} else {
-    // Código de los cálculos de la Ecuación 2
+
 }
 
 
