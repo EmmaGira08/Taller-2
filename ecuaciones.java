@@ -36,6 +36,11 @@ double denSub2 = fraccInterna + 3 * Math.pow(x, 2) + 2 * z + 3;
 double denominadorPrincipal = 1 + (1 / denSub2);
 double y1 = numeradorPrincipal / denominadorPrincipal;
 System.out.println("El resultado de la Ecuación 1 es y = " + y1);
+if (z == -1) {
+    System.out.println("Error: El valor de z no puede ser -1 porque produce división por cero.");
+} else {
+    // Código de los cálculos de la Ecuación 1
+}
 
 
         
