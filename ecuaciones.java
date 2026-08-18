@@ -53,6 +53,10 @@ System.out.print("Ingrese el valor de x: ");
 double x2 = scanner.nextDouble();
 System.out.print("Ingrese el valor de z: ");
 double z2 = scanner.nextDouble();
+// Término 1: (x^2 + 3z + 2) / (2 + 1 / (1 + 2z))
+double numTerm1 = Math.pow(x2, 2) + 3 * z2 + 2;
+double denTerm1 = 2 + (1 / (1 + 2 * z2));
+double term1 = numTerm1 / denTerm1;
 
         break;
 
