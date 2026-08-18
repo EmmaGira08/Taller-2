@@ -17,6 +17,11 @@ int opcion = scanner.nextInt();
 switch (opcion) {
     case 1:
         // Ecuación 1 (por implementar)
+        if (z == -1) {
+    System.out.println("Error: El valor de z no puede ser -1 porque produce división por cero.");
+} else {
+    // Código de los cálculos de la Ecuación 1
+
         System.out.println("\n--- RESOLVER ECUACIÓN 1 ---");
 System.out.print("Ingrese el valor de x: ");
 double x = scanner.nextDouble();
@@ -35,15 +40,8 @@ double fraccInterna = 1 / (1 + z);
 double denSub2 = fraccInterna + 3 * Math.pow(x, 2) + 2 * z + 3;
 double denominadorPrincipal = 1 + (1 / denSub2);
 double y1 = numeradorPrincipal / denominadorPrincipal;
-System.out.println("El resultado de la Ecuación 1 es y = " + y1);
-if (z == -1) {
-    System.out.println("Error: El valor de z no puede ser -1 porque produce división por cero.");
-} else {
-    // Código de los cálculos de la Ecuación 1
-}
-
-
-        
+System.out.println("El resultado de la Ecuación 1 es y = " + y1); 
+            }
         break;
 
     case 2:
@@ -72,10 +70,7 @@ double den2 = numSub2 / denSub3;
 double term2 = 2 / den2;
 double y2 = term1 + term2;
 System.out.println("El resultado de la Ecuación 2 es y = " + y2);
-
 }
-
-
         break;
 
     case 3:
