@@ -43,3 +43,6 @@ Se implementó la evaluación de la expresión matemática aplicando el método 
 
 ### Dudas / Dificultades Resueltas:
 - Manejo de la precisión decimal y prevención de indeterminaciones por división sobre cero.
+## Enlace a la Presentación
+
+- **Diapositivas de la Exposición:** ( https://canva.link/c5joloqt9ufj6ir)
