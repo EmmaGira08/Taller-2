@@ -34,3 +34,12 @@ Se implementó la evaluación de la expresión matemática aplicando el método 
 3. **Validación:** Se incluyó un condicional para prevenir indeclaraciones por división sobre cero.
 
  - Este programa contiene 2 ecuciones previamente propuestas de las cuáles podrás elegir una y asignar sus respectivos valores a sus variables para llegar a un resultado único.
+## Conclusiones, Dudas y Aprendizajes
+
+### Aprendizajes:
+1. **Tipos de Datos y Sufijos:** Se reforzó el uso obligatorio de `f` para flotantes, `L` para enteros largos y comillas simples `' '` para caracteres.
+2. **Jerarquía de Operadores:** Aplicación de la técnica *divide y vencerás* para desglosar fracciones complejas en variables intermedias.
+3. **Flujo de Trabajo con Git:** Uso de comandos para gestión de historial y atribución correcta de commits.
+
+### Dudas / Dificultades Resueltas:
+- Manejo de la precisión decimal y prevención de indeterminaciones por división sobre cero.
